@@ -1,0 +1,13 @@
+Date: Mon, 26 Apr 2021 06:43:01 GMT
+Content-Type: text/html; charset=UTF-8
+X-Frame-Options: SAMEORIGIN
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: __cfduid=d9e20561d6531a1f5ce25908fc5e2b5c61619419381; expires=Wed, 26-May-21 06:43:01 GMT; path=/; domain=.mpbio.com; HttpOnly; SameSite=Lax; Secure
+Cf-Request-Id: 09ae83d6400000ca80cbbdf000000001
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 645dd59d3f73ca80-LHE
+Content-Encoding: gzip
+Alt-Svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
