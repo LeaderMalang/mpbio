@@ -1,3 +1,4 @@
+from shutil import which
 # Scrapy settings for mpbio project
 #
 # For simplicity, this file contains only settings considered important or
@@ -13,6 +14,29 @@ SPIDER_MODULES = ['mpbio.spiders']
 NEWSPIDER_MODULE = 'mpbio.spiders'
 
 
+
+SELENIUM_DRIVER_NAME = 'chrome'
+
+SELENIUM_DRIVER_EXECUTABLE_PATH = which('F:\projects\pythonProject\mpbio\chromedriver.exe')
+
+SELENIUM_DRIVER_ARGUMENTS=['-head']
+
+DOWNLOADER_MIDDLEWARES = {
+
+    'scrapy_selenium.SeleniumMiddleware': 800
+
+}
+
+# SPLASH_URL = 'http://localhost:8050'
+# DOWNLOADER_MIDDLEWARES = {
+#     'scrapy_splash.SplashCookiesMiddleware': 723,
+#     'scrapy_splash.SplashMiddleware': 725,
+#     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+# }
+# SPIDER_MIDDLEWARES = {
+#     'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
+# }
+# DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'mpbio (+http://www.yourdomain.com)'
 USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1"
