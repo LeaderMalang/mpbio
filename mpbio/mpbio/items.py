@@ -9,7 +9,6 @@ import scrapy
 class MpbioItem(scrapy.Item):
 
     name = scrapy.Field()
-    price=scrapy.Field()
     sku = scrapy.Field()
     cas_number  = scrapy.Field()
     molecular_formula = scrapy.Field()
